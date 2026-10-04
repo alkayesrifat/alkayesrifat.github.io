@@ -1,53 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://alkayesrifat.com/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <loc>https://alkayesrifat.github.io/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/blog/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <loc>https://alkayesrifat.github.io/blog/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/video/</loc>
-    <lastmod>2026-10-04</lastmod>
+    <loc>https://alkayesrifat.github.io/video/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/blog/hello-world/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <loc>https://alkayesrifat.github.io/blog/hello-world/</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/video/Father-Timm-Memorial-Programming-Contest-6.0-National-Round/</loc>
-    <lastmod>2026-9-26</lastmod>
+    <loc>https://alkayesrifat.github.io/video/Father-Timm-Memorial-Programming-Contest-6.0-National-Round/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/video/codeforces-round-1123/</loc>
-    <lastmod>2026-9-26</lastmod>
+    <loc>https://alkayesrifat.github.io/video/codeforces-round-1123/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/video/codeforces-round-1122/</loc>
-    <lastmod>2026-9-21</lastmod>
+    <loc>https://alkayesrifat.github.io/video/codeforces-round-1122/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/video/educational-codeforces-round-189/</loc>
-    <lastmod>2026-04-21</lastmod>
+    <loc>https://alkayesrifat.github.io/video/educational-codeforces-round-189/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/video/Preliminary-Round-of-BdOI-2026/</loc>
-    <lastmod>2026-02-07</lastmod>
+    <loc>https://alkayesrifat.github.io/video/Preliminary-Round-of-BdOI-2026/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://alkayesrifat.com/video/icpc-dhaka-regional-2025/</loc>
-    <lastmod>2025-12-20</lastmod>
+    <loc>https://alkayesrifat.github.io/video/icpc-dhaka-regional-2025/</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
