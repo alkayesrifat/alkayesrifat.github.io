@@ -14,9 +14,10 @@
   <!-- Code syntax highlighting styles (GitHub Light) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
 
-  <!-- Preconnect to fonts -->
+  <!-- Preconnect and Load Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
@@ -280,14 +281,19 @@
             <div class="problem-solving-image-container">
               <img src="/assets/codeforces.png" alt="Codeforces Newbie" class="problem-solving-image" />
             </div>
-            <h3 class="problem-solving-title">Codeforces Newbie</h3>
+            <h3 class="problem-solving-title">
+              Codeforces Newbie
+              
+              | Peak: <span style="color:#808080;">1121</span>
+              
+            </h3>
             <p class="problem-solving-desc">
               
               <span class="problem-solving-rating">
-                Peak Rating: <span style="color:#808080">1121</span> | Top 46% among 1.44M+ programmers
+                Top 46% among 1.44M+ programmers
               </span>
               
-              | Building strong foundations in algorithm design, optimization techniques, and problem-solving under time constraints.
+              
             </p>
             <hr class="problem-solving-divider" />
             <div class="problem-solving-links">
@@ -301,14 +307,19 @@
             <div class="problem-solving-image-container">
               <img src="/assets/codechef.png" alt="CodeChef 2-Star" class="problem-solving-image" />
             </div>
-            <h3 class="problem-solving-title">CodeChef 2-Star</h3>
+            <h3 class="problem-solving-title">
+              CodeChef 2-Star
+              
+              | Peak: <span style="color:#16a34a;">1448</span>
+              
+            </h3>
             <p class="problem-solving-desc">
               
               <span class="problem-solving-rating">
-                Peak Rating: <span style="color:#16a34a">1448</span> | Top 27% among CodeChef programmers
+                Top 27% among CodeChef programmers
               </span>
               
-              | Building skills in long challenges and cook-offs, developing understanding of data structures and mathematical algorithms.
+              
             </p>
             <hr class="problem-solving-divider" />
             <div class="problem-solving-links">
@@ -322,14 +333,19 @@
             <div class="problem-solving-image-container">
               <img src="/assets/atcoder.png" alt="AtCoder Gray Coder" class="problem-solving-image" />
             </div>
-            <h3 class="problem-solving-title">AtCoder Gray Coder</h3>
+            <h3 class="problem-solving-title">
+              AtCoder Gray Coder
+              
+              | Peak: <span style="color:#808080;">331</span>
+              
+            </h3>
             <p class="problem-solving-desc">
               
               <span class="problem-solving-rating">
-                Peak Rating: <span style="color:#808080">309</span> | Top 27% among 407K+ programmers
+                Top 32% among 407K+ programmers
               </span>
               
-              | Developing problem-solving skills in thinking-based contests emphasizing algorithmic reasoning.
+              
             </p>
             <hr class="problem-solving-divider" />
             <div class="problem-solving-links">
@@ -343,14 +359,19 @@
             <div class="problem-solving-image-container">
               <img src="/assets/leetcode.png" alt="LeetCode Problem Solver" class="problem-solving-image" />
             </div>
-            <h3 class="problem-solving-title">LeetCode Problem Solver</h3>
+            <h3 class="problem-solving-title">
+              LeetCode 
+              
+              | Peak: <span style="color:#03a89e;">1518</span>
+              
+            </h3>
             <p class="problem-solving-desc">
               
               <span class="problem-solving-rating">
-                Peak Rating: <span style="color:#03a89e">1518</span> | Top 41.9% among 845K+ programmers
+                Top 41.9% among 845K+ programmers
               </span>
               
-              | Consistently solving problems across various difficulty levels, building strong foundations in data structures, algorithms, and system design patterns.
+              
             </p>
             <hr class="problem-solving-divider" />
             <div class="problem-solving-links">
@@ -364,10 +385,17 @@
             <div class="problem-solving-image-container">
               <img src="/assets/competitive-programming.png" alt="competitive programming" class="problem-solving-image" />
             </div>
-            <h3 class="problem-solving-title">1500+ Problems Solved</h3>
+            <h3 class="problem-solving-title">
+              1500+ Problems Solved
+              
+            </h3>
             <p class="problem-solving-desc">
               
-              Comprehensive problem-solving portfolio spanning advanced algorithms, data structures, graph theory, dynamic programming, mathematical optimization, and more across multiple competitive programming platforms.
+              <span class="problem-solving-rating">
+                Across multiple programming platforms.
+              </span>
+              
+              
             </p>
             <hr class="problem-solving-divider" />
             <div class="problem-solving-links">
@@ -457,7 +485,8 @@
     }
     .problem-solving-rating {
       font-weight: 700;
-      color: hsl(var(--foreground));
+      color: hsl(var(--muted-foreground));
+      display: block; /* Ensures it acts like a distinct line if followed by description */
     }
     .problem-solving-divider {
       width: 100%;
