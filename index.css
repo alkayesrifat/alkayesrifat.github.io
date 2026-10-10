@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* --- layout.css --- */
-html, body { height: 100%; }
+html, body { height: 100%; margin: 0; }
 html { scroll-behavior: smooth; }
 
 /* Sticky footer: layout-wrapper fills the full viewport height,
